@@ -1,0 +1,44 @@
+/* Custom Spotify theme CSS */
+
+body {
+  --main-bg-color: #282828; /* Background color */
+  --primary-color: #1DB954; /* Spotify green */
+  --text-color: #FFFFFF; /* Text color */
+}
+
+/* Main background */
+.page-background, .Root {
+  background-color: var(--main-bg-color) !important;
+}
+
+/* Sidebar background and text */
+.sidebar {
+  background-color: var(--primary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Sidebar items hover */
+.sidebar-item:hover {
+  background-color: #333333 !important;
+}
+
+/* Playlist and menu items */
+.menu-list-item, .main-menu-item {
+  color: var(--text-color) !important;
+}
+
+/* Player controls background */
+.player-controls {
+  background-color: #282828 !important;
+  color: var(--text-color) !important;
+}
+
+/* Progress bar */
+.seekbar__bar {
+  background-color: var(--primary-color) !important;
+}
+
+/* Song info text */
+.song-name, .track-info {
+  color: var(--text-color) !important;
+}
